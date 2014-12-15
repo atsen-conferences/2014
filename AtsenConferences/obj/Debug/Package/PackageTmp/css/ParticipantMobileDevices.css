@@ -1,0 +1,59 @@
+﻿@media only screen and (max-width: 481px) {
+    body {
+        background: url(../images/backgrounds/venue.jpg) center center no-repeat fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        background-color: #4C5D67;
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    }
+
+    .wrapper {
+        margin: 0 0 4em 0;
+        padding: 6em 0 6em 0;
+        width: auto;
+    }
+
+    .container {
+        margin-left: auto;
+        margin-right: auto;
+        width: auto;
+    }
+
+    .row {
+        margin-left: 10%;
+        width: auto;
+    }
+
+    .Grid {
+        background-color: #fff;
+        margin: 5px 0 10px 0;
+        border: solid 1px #525252;
+        border-collapse: collapse;
+        font-family: Calibri;
+        color: #474747;
+        width: 50%;
+    }
+        .Grid td {
+            padding: 2px;
+            border: solid 1px #c1c1c1;
+            width: 50%;
+        }
+
+        .Grid th {
+            padding: 4px 2px;
+            color: #fff;
+            background: #363670 url(Images/grid-header.png) repeat-x top;
+            border-left: solid 1px #525252;
+            font-size: 0.9em;
+            width: 50%;
+        }
+
+        .Grid .alt {
+            background: #fcfcfc url(Images/grid-alt.png) repeat-x top;
+            width: auto;
+        }
+}

@@ -1,0 +1,5 @@
+C:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\bin\AtsenConferences.dll
+C:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\bin\AtsenConferences.pdb
+C:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\obj\Release\AtsenConferences.dll
+C:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\obj\Release\AtsenConferences.pdb
+C:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\obj\Release\AtsenConferences.csprojResolveAssemblyReference.cache

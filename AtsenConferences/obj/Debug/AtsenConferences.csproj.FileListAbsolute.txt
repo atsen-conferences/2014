@@ -1,0 +1,7 @@
+c:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\bin\AtsenConferences.dll
+c:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\bin\AtsenConferences.pdb
+c:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\bin\EntityFramework.dll
+c:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\bin\EntityFramework.xml
+c:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\obj\Debug\AtsenConferences.dll
+c:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\obj\Debug\AtsenConferences.pdb
+c:\TFS_YEC\UNIT Atsen-Conferences\Dev\YEC\Src\AConferences\AtsenConferences\obj\Debug\AtsenConferences.csprojResolveAssemblyReference.cache

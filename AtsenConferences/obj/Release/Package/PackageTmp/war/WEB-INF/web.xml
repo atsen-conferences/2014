@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	<filter>
+		<filter-name>ObjectifyFilter</filter-name>
+		<filter-class>com.googlecode.objectify.ObjectifyFilter</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>ObjectifyFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+
+	<filter>
+		<filter-name>jersey</filter-name>
+		<filter-class>com.sun.jersey.spi.container.servlet.ServletContainer</filter-class>
+		<init-param>
+			<param-name>javax.ws.rs.Application</param-name>
+			<param-value>com.atsen.workshop.controller.servlet.App</param-value>
+		</init-param>
+		<init-param>
+			<param-name>com.sun.jersey.config.property.JSPTemplatesBasePath</param-name>
+			<param-value>/WEB-INF/pages</param-value>
+		</init-param>
+		<init-param>
+			<param-name>com.sun.jersey.config.feature.DisableWADL</param-name>
+			<param-value>true</param-value>
+		</init-param>
+		<init-param>
+			<param-name>com.sun.jersey.config.property.WebPageContentRegex</param-name>
+			<param-value>/(_ah|_se|styles)/.*</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>jersey</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+</web-app>

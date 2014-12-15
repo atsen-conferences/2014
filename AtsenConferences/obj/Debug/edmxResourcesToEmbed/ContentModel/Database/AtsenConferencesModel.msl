@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AtsenConferencesModelStoreContainer" CdmEntityContainer="AtsenConferencesModelContainer">
+    <EntitySetMapping Name="ParticipantSet">
+      <EntityTypeMapping TypeName="IsTypeOf(AtsenConferencesModel.Participant)">
+        <MappingFragment StoreEntitySet="ParticipantSet">
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Position" ColumnName="Position" />
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="Linkedin" ColumnName="Linkedin" />
+          <ScalarProperty Name="Twitter" ColumnName="Twitter" />
+          <ScalarProperty Name="Attention" ColumnName="Attention" />
+          <ScalarProperty Name="Confirmed" ColumnName="Confirmed" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Affiliation" ColumnName="Affiliation" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

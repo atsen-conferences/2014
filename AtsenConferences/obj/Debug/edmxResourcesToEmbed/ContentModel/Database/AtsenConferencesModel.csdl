@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="AtsenConferencesModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="AtsenConferencesModelContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ParticipantSet" EntityType="AtsenConferencesModel.Participant" />
+  </EntityContainer>
+  <EntityType Name="Participant">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Name" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="LastName" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="Email" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="Phone" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="Affiliation" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="Date" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Boolean" Name="Confirmed" />
+    <Property Type="String" Name="Attention" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Twitter" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Linkedin" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="Int32" Name="Count" />
+    <Property Type="String" Name="Position" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Type="String" Name="Title" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+</Schema>

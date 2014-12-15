@@ -1,0 +1,46 @@
+﻿.Grid {
+    background-color: #fff;
+    margin: 5px 0 10px 0;
+    border: solid 1px #525252;
+    border-collapse: collapse;
+    font-family: Calibri;
+    color: #474747;
+    width: 100%;
+}
+
+    .Grid td {
+        padding: 2px;
+        border: solid 1px #c1c1c1;
+    }
+
+    .Grid th {
+        padding: 4px 2px;
+        color: #fff;
+        background: #363670 url(Images/grid-header.png) repeat-x top;
+        border-left: solid 1px #525252;
+        font-size: 0.9em;
+    }
+
+    .Grid .alt {
+        background: #fcfcfc url(Images/grid-alt.png) repeat-x top;
+    }
+
+#banner {
+    background: #fff;
+    text-align: center;
+    padding: 4.5em 0 4.5em 0;
+    margin-bottom: 0;
+    margin-top: 15%;
+}
+
+.container {
+    margin: 0 0 4em 0;
+    padding: 6em 0 6em 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.row {
+    margin-left: 5%;
+}
