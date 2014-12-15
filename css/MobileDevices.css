@@ -1,0 +1,25 @@
+﻿@media only screen and (max-width: 481px) {
+    body {
+        background: url(../images/backgrounds/intro.jpg) center center no-repeat fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;        
+        color: white;
+        min-height: 660px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    #Table1 {
+        font-family: Arial;
+        font-size: 17px;
+        background: #7f7f7f;
+        background: rgba(255,255,255,0.3);
+        margin-left: -15%; /* half of width */
+        margin-top: -10%; /* half of height */
+        top: 45%;
+        left: 50%;
+        float:left;
+    }
+}
